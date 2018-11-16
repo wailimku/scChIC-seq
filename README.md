@@ -3,24 +3,18 @@
 
 Update all by November-18-2018
 
-#####################################################################
-#
-# last update: November-16-2018
-#
-# 
-#####################################################################
 
+-------------------------------------------------------------------
 
+ last update: November-16-2018
 
+ For Figure 1, Extended data Figs. 2-4
+ In these figures, we generated H3K4me3 scChIC-seq data using low 
+ cell number for NIH-3T3 cells, mESC cells, and Naïve T cells. We
+ want to examine the specificity of profiling H3K4me3, and its 
+ applicability to different cell types. 
 
-#####################################################################
-# For Figure 1, Extended data Figs. 2-4
-# In these figures, we generated H3K4me3 scChIC-seq data using low 
-# cell number for NIH-3T3 cells, mESC cells, and Naïve T cells. We
-# want to examine the specificity of profiling H3K4me3, and its 
-# applicability to different cell types. 
-#####################################################################
-
+-------------------------------------------------------------------
 
 
 1) (This step is optional since you can directly download the output files from GEO data sets) Download the raw fastq data from Pubmed to the folder ./data/input/Figure1/. The list of files can be found in ./src/figure1_code/files_download.txt
