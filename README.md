@@ -52,7 +52,7 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 </pre>
 
 ![](Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.jpg =100x20)
-
+<img src="Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.jpg" alt="Fig 1b" width="200"/>
 
 
 References:
