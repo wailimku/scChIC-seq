@@ -6,6 +6,7 @@ Update all by November-18-2018
 
 Download files
 --------------------------------------
+
 1. Get the files from github and change directory to CRK
 
 <pre>
@@ -23,5 +24,16 @@ Download files
 [wlku@matrix GSE105012] tar -xvf GSE105012.tar
 [wlku@matrix GSE105012] gunzip *.gz
 [wlku@matrix GSE105012] cd ..
-<pre>
+</pre>
 
+
+
+H3K4me3 profiles in 3T3 cells using low cell numer
+--------------------------------------
+
+1. Call peaks using SICER for libraries using 3000, 1000, 300 and 100 cells[^1]
+
+
+
+
+[^1] SICER
