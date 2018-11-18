@@ -1,4 +1,4 @@
-# CRK (I am updating the files and will notify you when I stop updating or finish updating here)
+# CRK (18-Nov-2018 11:00am EST, go to lunch, and will be back updating around 1:pm EST)
 
 
 Update all by November-18-2018
