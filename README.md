@@ -1,4 +1,4 @@
-# CRK
+# CRK (I am updating the files and will notify you when I stop updating or finish updating here)
 
 
 Update all by November-18-2018
@@ -35,6 +35,8 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 <pre>
 [wlku@matrix CRK] sh ./src/figure1_code/script_sicer_low_cell
 </pre>
+
+2. Compute the TSS density profiles 
 
 
 
