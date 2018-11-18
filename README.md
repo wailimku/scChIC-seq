@@ -31,9 +31,9 @@ Download files
 H3K4me3 profiles in 3T3 cells using low cell numer
 --------------------------------------
 
-1. Call peaks using SICER for libraries using 3000, 1000, 300 and 100 cells[^1]
+1. Call peaks using SICER for libraries using 3000, 1000, 300 and 100 cells [^1]
 
 
 
 
-[^1] SICER
+[^1]: SICER
