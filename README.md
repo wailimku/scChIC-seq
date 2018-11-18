@@ -34,12 +34,14 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 [wlku@matrix CRK] sh ./src/figure1_code/script_sicer_low_cell
 </pre>
 
-2. Compute the TSS density profiles using HOMER [2] and plot the TSS profile plots using matlab (<b>Figure 1b </b>)
+2. Compute the TSS density profiles using HOMER [2] and plot the TSS profile plots using matlab (<b>Figure 1b</b>)
 <pre>
 [wlku@matrix CRK] sh ./src/figure1_code/script_run_homer_1
 [wlku@matrix CRK] matlab -nodesktop
 [wlku@matrix CRK] run ./src/Figure1_code/single_cell_3T3_tss_profile_plots(1,0)
 </pre>
+
+3. Plot the scatter plots between 3T3 bulk cell ChIP-data seq data and low cell number data
 
 
 References:
