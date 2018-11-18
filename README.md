@@ -14,5 +14,8 @@ Install and downlaod
 > AdvancedColormap.m  data  Figures  GSE105012  README.md  src violin.m  violinplot.m
 ```
 <pre>
-sample <b>sample</b> sample
+> git clone https://github.com/wailimku/CRK.git
+> cd CRK
+> ls
+> AdvancedColormap.m  <b>data</b>  <b>Figures</b>  <b>GSE105012</b>  README.md  <b>src</b> violin.m  violinplot.m
 </pre>
