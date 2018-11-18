@@ -34,7 +34,7 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 [wlku@matrix CRK] sh ./src/figure1_code/script_sicer_low_cell
 </pre>
 
-2. Compute the TSS density profiles (<b>Figure 1b </b>)
+2. Compute the TSS density profiles using HOMER [2] and plot the TSS profile plots using matlab (<b>Figure 1b </b>)
 <pre>
 [wlku@matrix CRK] sh ./src/figure1_code/script_run_homer_1
 [wlku@matrix CRK] matlab -nodesktop
@@ -45,4 +45,5 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 References:
 --------------------------------------
 
-1.  SICER
+1. SICER
+2. HOMER
