@@ -31,8 +31,10 @@ Download files
 H3K4me3 profiles in 3T3 cells using low cell numer
 --------------------------------------
 
-1. Call peaks using SICER for libraries using 3000, 1000, 300 and 100 cells [1]
-
+1. Call peaks using SICER [1] for libraries using 3000, 1000, 300 and 100 cells. Peak files are savd in the directory './data/temp/Figure1/'
+<pre>
+[wlku@matrix CRK] sh ./src/figure1_code/script_sicer_low_cell
+</pre>
 
 
 
