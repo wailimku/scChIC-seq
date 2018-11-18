@@ -1,4 +1,4 @@
-# CRK (updating 18-Nov-2018 3:40pm)
+# CRK (updating 18-Nov-2018)
 
 
 
@@ -42,7 +42,9 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 </pre>
 
 3. Plot the scatter plots between 3T3 bulk cell ChIP-data seq data and low cell number data
-
+<pre>
+[wlku@matrix CRK] Rscript ./src/Figure1_code/ single_cell_analysze_H3K4me3_low_cell_num_scatter_bed2table.r
+</pre>
 
 References:
 --------------------------------------
