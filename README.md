@@ -36,6 +36,11 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 
 2. Compute the TSS density profiles 
 
+<pre>
+[wlku@matrix CRK] sh ./src/figure1_code/script_run_homer_1
+[wlku@matrix CRK] matlab -nodesktop
+[wlku@matrix CRK] run ./src/Figure1_code/single_cell_3T3_tss_profile_plots(1,0)
+</pre>
 
 
 References:
