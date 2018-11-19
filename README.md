@@ -149,6 +149,9 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix GSE105012] ls  *sc1_0_30_mapq10_noDup.bed|awk '{print "cp "$1" "$1".txt"}'>script_cp_bed2txt
 [wlku@matrix GSE105012] sh script_cp_bed2txt
 [wlku@matrix GSE105012] cd ..
+[wlku@matrix CRK]  matlab -nodesktop
+>> run ./src/Figure2_code/singlecell_filtereads_by_poolscpeak.m
+>> exit
 </pre>
 
 D. Cell clustering of human WBCs
