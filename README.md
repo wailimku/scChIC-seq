@@ -84,6 +84,7 @@ This is Figure 1d
 <p></p>
 
 <p>A figure (Figure 1e) is shown by matlab</p>
+<p><img src="Figures/Figure1/3T3_ESC_T_heatmap.jpg" alt="Fig 1e" width="500" vspace="20">
 
 <p></p> 
 
