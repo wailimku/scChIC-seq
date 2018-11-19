@@ -93,7 +93,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 
 1. Before analyzing the WBC H3K4me3 data, we need to download the H3K4me3 ChIP-seq data from the ENCODE project. The file accession number can be obtained in <b>Supplemental Table S2</b>. Also, a number of pre-preprocessing steps for the Bulk WBC ChIP-seq data are required. In this version of pipeline, the processed data for human Bulk WBC ChIP-seq is provided. A brief description of pre-processing steps ar discussed below
 
-<ol type="a">
+<ol type="a" style="margin-left: 10px;">
 	<li>Black tea</li>
 	<li>Green tea</li>
 </ol>
