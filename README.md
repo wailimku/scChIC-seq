@@ -113,6 +113,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix GSE105012] cd ..
 </pre>
 
+3. The bedgrapgh file for the pooled cells is generated
 
 
 
