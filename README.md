@@ -41,10 +41,9 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 [wlku@matrix CRK] run ./src/Figure1_code/single_cell_3T3_tss_profile_plots(1,0)
 </pre>
 
-A figure is shown by matlab
+A figure (Fig. 1b) is shown by matlab
 
 <img src="Figures/Figure1/3T3_TSS_profiles.jpg" alt="Fig 1b" width="500"/>
-
 
 3. Plot the scatter plots between 3T3 bulk cell ChIP-data seq data and low cell number data
 <pre>
@@ -56,8 +55,8 @@ A figure is shown by matlab
 [wlku@matrix CRK] xpdf scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.pdf
 </pre>
 
-<img src="Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.jpg" alt="Fig 1b" width="500"/>
-Figure 1b is shown above
+<img src="Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.jpg" alt="Fig 1d" width="500"/>
+Figure 1d is shown above
 
 
 4. Compute the peak overlap between Bulk Cell ChIP-seq and low cell number library
