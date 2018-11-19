@@ -68,8 +68,10 @@ Figure 1b is shown above
 </pre>
 
 
-
-
+5. Compute Clustering heatmap for 3T3, ESC, and Naive T cells
+<pre>
+[wlku@matrix CRK] Rscript ./src/Figure1_code/peaks_overlap_for_3T3_cells.r 1
+</pre>
 
 
 References:
