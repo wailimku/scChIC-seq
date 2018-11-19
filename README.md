@@ -58,7 +58,13 @@ Figure 1b is shown above
 4. Compute the peak overlap between Bulk Cell ChIP-seq and low cell number library
 <pre>
 [wlku@matrix CRK] cd ../../
-[wlku@matrix CRK] 
+[wlku@matrix CRK] Rscript ./src/Figure1_code/peaks_overlap_for_3T3_cells.r 1
+[1] "Bulk cell, number of peaks = "
+[1] 16773
+[1] "3000 cells scChIC-seq, number of peaks = "
+[1] 16691
+[1] "Overlap_peaks = "
+[1] 13728
 </pre>
 
 
