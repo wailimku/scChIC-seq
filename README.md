@@ -130,7 +130,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [1] 15034
 </pre>
 
-5. Plot TSS profiles plot
+5. Plot TSS profiles plot (<b>Figure 2b</b>)
 <pre>
 
 
