@@ -1,0 +1,1 @@
+sh $SICERDIR/SICER-rb.sh ./GSE105012/ combined_sc_white_blood_cell.bed  ./data/temp/Figure2/ hg18 1 200 150 0.6 200 .01
