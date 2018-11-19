@@ -54,7 +54,10 @@ A figure (Fig. 1b) is shown by matlab
 </pre>
 
 <p><img src="Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.jpg" alt="Fig 1d" width="500" vspace="20">
-This is Figure 1d.</p>
+.</p>
+<div style="text-align:justify;">
+This is Figure 1d
+</div>
 
 4. Compute the peak overlap between Bulk Cell ChIP-seq and low cell number library
 <pre>
