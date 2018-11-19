@@ -108,7 +108,9 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix CRK] matlab -nodesktop
 >> run ./src/Figure2_code/single_cell_H3k4me3_filter_large_outlier
 >> exit
-[wlku@matrix CRK] 
+[wlku@matrix CRK] cd GSE105012
+[wlku@matrix GSE105012] sh script_cat_sc
+[wlku@matrix GSE105012] cd ..
 </pre>
 
 
