@@ -26,7 +26,7 @@ Download files
 
 
 
-H3K4me3 profiles in 3T3 cells using low cell numer
+H3K4me3 profiling  using low cell number 3T3 cells
 --------------------------------------
 
 1. Call peaks using SICER [1] for libraries using 3000, 1000, 300 and 100 cells. Peak files are savd in the directory './data/temp/Figure1/'
@@ -79,11 +79,19 @@ This is Figure 1d
 5. Compute Clustering heatmap for 3T3, ESC, and Naive T cells
 <pre>
 [wlku@matrix CRK] matlab -nodesktop
->> run ./src/figure1_code/analyze_H3K4me3_diff_cells_w_routput.m
+>> run ./src/Figure1_code/analyze_H3K4me3_diff_cells_w_routput.m
 </pre>
 <p></p>
 
 <p>A figure (Figure 1e) is shown by matlab</p>
+
+
+ 
+H3K4me3 profiling in Human white blood cells (WBCs)
+--------------------------------------
+1. Compute Clustering heatmap for 3T3, ESC, and Naive T cells
+
+
 
 References:
 --------------------------------------
