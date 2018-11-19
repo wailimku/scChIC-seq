@@ -114,7 +114,9 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 </pre>
 
 3. The bedgrapgh file for the pooled cells is generated
-
+<pre>
+./generateRPBMBasedSummary ./GSE105012/combined_sc_white_blood_cell.bed hg18_chrlen.txt 1000 75 n ./GSE105012/combined_sc_white_blood_cell.bedgraph 
+</pre>
 
 
 References:
