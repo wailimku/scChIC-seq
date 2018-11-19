@@ -138,6 +138,11 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 >> exit
 </pre>
 
+<p>A figure (Figure 2b) is shown by matlab</p>
+<p><img src="Figures/Figure2/fig2_tss.jpg" alt="Fig 2b" width="300" vspace="20" hspace="5" >
+</p>
+
+
 D. Cell clustering of human WBCs
 ---------------------------------------------------------
 
