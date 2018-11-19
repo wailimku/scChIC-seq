@@ -142,7 +142,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 <p><img src="Figures/Figure2/fig2_tss.jpg" alt="Fig 2b" width="300" vspace="20" hspace="5" >
 </p>
 
-6. Read filtering. Since read filtered files can be downloaded from GSE105012, so this step could be optional.
+6. Read filtering. Since read filtered files can be downloaded from GSE105012, so this step is optional.
 <pre>
 [wlku@matrix CRK] mkdir ./data/temp/filtered_bed
 </pre>
