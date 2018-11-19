@@ -132,8 +132,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 
 5. Plot TSS profiles plot (<b>Figure 2b</b>)
 <pre>
-
-
+[wlku@matrix CRK] sh ./src/Figure2_code/script_homer_sctss
 </pre>
 
 D. Cell clustering of human WBCs
