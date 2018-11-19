@@ -86,8 +86,10 @@ This is Figure 1d
 <p>A figure (Figure 1e) is shown by matlab</p>
 
 <p></p> 
+
 C. H3K4me3 profiling in Human white blood cells (WBCs)
---------------------------------------
+---------------------------------------------------------
+
 1. Compute Clustering heatmap for 3T3, ESC, and Naive T cells
 
 
