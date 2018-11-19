@@ -50,9 +50,9 @@ B. H3K4me3 profiling  using low cell number 3T3 cells
 [wlku@matrix CRK] Rscript ./src/Figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_bed2table.r
 [wlku@matrix CRK] Rscript ./src/Figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_plot.r temp 1
 [wlku@matrix CRK] cd Figures/Figure1/
-[wlku@matrix CRK] ls
-[wlku@matrix CRK] scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.pdf
-[wlku@matrix CRK] xpdf scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.pdf
+[wlku@matrix Figure1] ls
+[wlku@matrix Figure1] scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.pdf
+[wlku@matrix Figure1] xpdf scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.pdf
 </pre>
 
 <p><img src="Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.jpg" alt="Fig 1d" width="500" vspace="20">
@@ -65,7 +65,7 @@ This is Figure 1d
 
 4. Compute the peak overlap between Bulk Cell ChIP-seq and low cell number library
 <pre>
-[wlku@matrix CRK] cd ../../
+[wlku@matrix Figure1] cd ../../
 [wlku@matrix CRK] Rscript ./src/Figure1_code/peaks_overlap_for_3T3_cells.r 1
 [1] "Bulk cell, number of peaks = "
 [1] 16773
@@ -100,7 +100,10 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 	</ol>
 </ul>
 
-
+2. Now, we analyze our WBC H3K4me3 data. First, we filter large outlier.
+<pre>
+[wlku@matrix CRK]
+</pre>
 
 
 
