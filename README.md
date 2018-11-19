@@ -91,7 +91,35 @@ This is Figure 1d
 C. H3K4me3 profiling in Human white blood cells (WBCs)
 ---------------------------------------------------------
 
-1. Compute Clustering heatmap for 3T3, ESC, and Naive T cells
+1. Before analyzing the WBC H3K4me3 data, we need to download the H3K4me3 ChIP-seq data from the ENCODE project. The file accession number can be obtained in <b>Supplemental Table S2</b>. Also, a number of pre-preprocessing steps for the Bulk WBC ChIP-seq data are required. In this version of pipeline, the processed data for human Bulk WBC ChIP-seq is provided. A brief description of pre-processing steps ar discussed below
+
+
+2) (Optional) Before processing any single cell data, we need to process the ENCODE data first
+
+a) Do the mapping using Bowtie2
+
+i) bowtie2 -p 18 -q -5 0 -3 0 -x /***/hg18/genome -U *.fastq |samtools view -bS - > 		*.bam
+
+ii) samtools view -b -F 4 -q 10 *.bam  |bamToBed -i stdin | awk 'BEGIN {OFS="\t"}; {print $1,$2,$3,$3-$2,$5,$6}' >**_mapq10.bed	
+
+iii) ./src/other_codes/RemoveRedudantReads **_mapq10.bed **_mapq10_noDup.bed	
+
+b) Call the peaks using SICER[2]	
+
+	i)sh ./src/figure2_code/script_bulk_sicer
+
+c) Combine all sicer peaks
+
+	i)sh ./src/figure2_code/script_combine_bulk_peaks
+
+d) Simplify the combined bulk peaks
+
+	i)Rscript ./src/figure2_code/Simplify_bulk_peak.r
+
+e) Generate combined bed files and bedgraph files
+
+      i)sh ./src/Figure2_code/script_gen_com_bed
+
 
 
 
