@@ -113,7 +113,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix GSE105012] cd ..
 </pre>
 
-3. The bedgrapgh file for the pooled cells is generated
+3. The bedgrapgh file for the pooled cells (281 cells) is generated. This bedgraph files could be uploaded to genome browser for visualization.
 <pre>
 ./generateRPBMBasedSummary ./GSE105012/combined_sc_white_blood_cell.bed hg18_chrlen.txt 1000 75 n ./GSE105012/combined_sc_white_blood_cell.bedgraph 
 </pre>
