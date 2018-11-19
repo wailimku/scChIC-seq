@@ -144,7 +144,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 
 6. Read filtering. Since read filtered files can be downloaded from GSE105012, so this step is optional.
 <pre>
-[wlku@matrix CRK] mkdir ./data/temp/filtered_bed
+[wlku@matrix CRK] mkdir ./data/temp/Figure2/filtered_bed
 [wlku@matrix CRK] cd GSE105012
 [wlku@matrix GSE105012] ls  *sc1_0_30_mapq10_noDup.bed|awk '{print "cp "$1" "$1".txt"}'>script_cp_bed2txt
 [wlku@matrix GSE105012] sh script_cp_bed2txt
