@@ -42,6 +42,7 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 </pre>
 A figure (Fig. 1b) is shown by matlab
 <img src="Figures/Figure1/3T3_TSS_profiles.jpg" alt="Fig 1b" width="700"/>
+
 3. Plot the scatter plots between 3T3 bulk cell ChIP-data seq data and low cell number data
 <pre>
 [wlku@matrix CRK] Rscript ./src/Figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_bed2table.r
