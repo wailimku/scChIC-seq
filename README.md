@@ -96,35 +96,13 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 <ul>
 	<ol type="a">
 		<li>Do the mapping using Bowtie2 </li>
+		<li>Remove redundant reads </li>
 		<li>Combine all sicer peaks</li>
 	</ol>
 </ul>
 
 
 
-a) Do the mapping using Bowtie2
-
-i) bowtie2 -p 18 -q -5 0 -3 0 -x /***/hg18/genome -U *.fastq |samtools view -bS - > 		*.bam
-
-ii) samtools view -b -F 4 -q 10 *.bam  |bamToBed -i stdin | awk 'BEGIN {OFS="\t"}; {print $1,$2,$3,$3-$2,$5,$6}' >**_mapq10.bed	
-
-iii) ./src/other_codes/RemoveRedudantReads **_mapq10.bed **_mapq10_noDup.bed	
-
-b) Call the peaks using SICER[2]	
-
-	i)sh ./src/figure2_code/script_bulk_sicer
-
-c) Combine all sicer peaks
-
-	i)sh ./src/figure2_code/script_combine_bulk_peaks
-
-d) Simplify the combined bulk peaks
-
-	i)Rscript ./src/figure2_code/Simplify_bulk_peak.r
-
-e) Generate combined bed files and bedgraph files
-
-      i)sh ./src/Figure2_code/script_gen_com_bed
 
 
 
