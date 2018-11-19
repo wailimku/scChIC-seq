@@ -81,7 +81,9 @@ This is Figure 1d
 [wlku@matrix CRK] matlab -nodesktop
 >> run ./src/figure1_code/analyze_H3K4me3_diff_cells_w_routput.m
 </pre>
+<p></p>
 
+<p>A figure (Figure 1e) is shown by matlab</p>
 
 References:
 --------------------------------------
