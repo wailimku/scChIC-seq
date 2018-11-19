@@ -103,7 +103,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 2. Now, we analyze our WBC H3K4me3 data. First, we filter large outlier.
 <pre>
 [wlku@matrix CRK] cd GSE105012
-[wlku@matrix GSE105012] wc -l *_sc1_0_30_mapq10_noDup.bed|awk '{print $1"\t"$2}'> ../data/input/Figure2/wc_sc1_bed.txt
+[wlku@matrix GSE105012] wc -l *_sc1_0_30_mapq10_noDup.bed|awk '{print $1"\t"$2}'|head -n 285> ../data/input/Figure2/wc_sc1_bed.txt
 [wlku@matrix GSE105012] cd ..
 [wlku@matrix CRK] matlab -nodesktop
 >> run ./src/Figure2_code/single_cell_H3k4me3_filter_large_outlier
