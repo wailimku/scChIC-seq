@@ -42,7 +42,7 @@ B. H3K4me3 profiling  using low cell number 3T3 cells
 </pre>
 
 <p>A figure (Figure 1b) is shown by matlab</p>
-<p><img src="Figures/Figure1/3T3_TSS_profiles.jpg" alt="Fig 1b" width="400" vspace="20" hspace="5" >
+<p><img src="Figures/Figure1/3T3_TSS_profiles.jpg" alt="Fig 1b" width="300" vspace="20" hspace="5" >
 </p>
 
 3. Plot the scatter plots between 3T3 bulk cell ChIP-data seq data and low cell number data
@@ -55,7 +55,7 @@ B. H3K4me3 profiling  using low cell number 3T3 cells
 [wlku@matrix Figure1] xpdf scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.pdf
 </pre>
 
-<p><img src="Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.jpg" alt="Fig 1d" width="500" vspace="20">
+<p><img src="Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.jpg" alt="Fig 1d" width="300" vspace="20">
 </p>
 <div style="text-align:justify;">
 This is Figure 1d
@@ -84,7 +84,7 @@ This is Figure 1d
 <p></p>
 
 <p>A figure (Figure 1e) is shown by matlab</p>
-<p><img src="Figures/Figure1/3T3_ESC_T_heatmap.jpg" alt="Fig 1e" width="500" vspace="20">
+<p><img src="Figures/Figure1/3T3_ESC_T_heatmap.jpg" alt="Fig 1e" width="300" vspace="20">
 
 <p></p> 
 
