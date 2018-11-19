@@ -38,7 +38,7 @@ H3K4me3 profiles in 3T3 cells using low cell numer
 <pre>
 [wlku@matrix CRK] sh ./src/figure1_code/script_run_homer_1
 [wlku@matrix CRK] matlab -nodesktop
-[wlku@matrix CRK] run ./src/Figure1_code/single_cell_3T3_tss_profile_plots(1,0)
+>> run ./src/Figure1_code/single_cell_3T3_tss_profile_plots(1,0)
 </pre>
 
 <p>A figure (Figure 1b) is shown by matlab</p>
@@ -78,7 +78,8 @@ This is Figure 1d
 
 5. Compute Clustering heatmap for 3T3, ESC, and Naive T cells
 <pre>
-[wlku@matrix CRK] Rscript ./src/Figure1_code/peaks_overlap_for_3T3_cells.r 1
+[wlku@matrix CRK] matlab -nodesktop
+>> run ./src/figure1_code/analyze_H3K4me3_diff_cells_w_routput.m
 </pre>
 
 
