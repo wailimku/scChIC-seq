@@ -118,9 +118,10 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix CRK] ./generateRPBMBasedSummary ./GSE105012/combined_sc_white_blood_cell.bed hg18_chrlen.txt 1000 75 n ./GSE105012/combined_sc_white_blood_cell.bedgraph 
 </pre>
 
-4. Call peaks for the pooled cells using SICER
+4. Call peaks for the pooled cells using SICER [1], and compute the overlaps of peaks between bulk and pooled cells
 <pre>
 [wlku@matrix CRK] sh ./src/Figure2_code/script_poolsc_sicer
+[wlku@matrix CRK]
 </pre>
 
 References:
