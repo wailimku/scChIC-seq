@@ -124,7 +124,26 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix CRK]
 </pre>
 
-References:
+
+
+D. Cell clustering of human WBCs
+---------------------------------------------------------
+
+
+
+E. Gene expression and H3K4me3
+---------------------------------------------------------
+
+
+F. Finding the enriched TFs
+---------------------------------------------------------
+
+G. H3K27me3 profiling in human WBCs
+---------------------------------------------------------
+
+
+
+H. References:
 --------------------------------------
 
 1. SICER
