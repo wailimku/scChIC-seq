@@ -228,6 +228,16 @@ E. Gene expression and H3K4me3
 F. Finding the enriched TFs
 ---------------------------------------------------------
 
+1. Selection of the two peak sets
+<pre>
+</pre>
+2. Perform the chromvaranalysis
+<pre>
+</pre>
+3. examine the enriched TFs and their gene expression level
+<pre>
+</pre>
+
 G. H3K27me3 profiling in human WBCs
 ---------------------------------------------------------
 
