@@ -264,11 +264,13 @@ F. Finding the enriched TFs
 </pre>
 
 <p><img src="Figures/Figure5/Figure5a.jpg" alt="Fig 5a" width="400" vspace="20">
-	
-	
+		
 <pre>
->> single_cell_analyze_chromvar_deviation_Tcell2(1)
+>> single_cell_analyze_chromvar_deviation_Tcell2(2)
 </pre>
+
+<p><img src="Figures/Figure5/figure5b_c.jpg" alt="Figs. 5b and c" width="400" vspace="20">
+
 
 G. H3K27me3 profiling in human WBCs
 ---------------------------------------------------------
