@@ -217,12 +217,12 @@ E. Gene expression and H3K4me3
 <pre>
 >> single_cell_analyze_impute_readcount2(1)
 </pre>
-<p><img src="Figures/Figure4/cdfplot_Tcell.jpg" alt="Fig 4c" width="300" vspace="20" hspace="5" >
+<p><img src="Figures/Figure4/cdfplot_Tcell.jpg" alt="Fig 4c" width="500" vspace="20" hspace="5" >
 </p>	
 <pre>
 >> single_cell_analyze_impute_readcount2(2)
 </pre>
-<p><img src="Figures/Figure4/violin_coexp_Tcell_zoomin.jpg" alt="Fig 4d" width="300" vspace="20" hspace="5" >
+<p><img src="Figures/Figure4/cdfplot_mono.jpg" alt="Fig 4d" width="500" vspace="20" hspace="5" >
 </p>	
 
 F. Finding the enriched TFs
