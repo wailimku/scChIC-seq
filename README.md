@@ -172,7 +172,9 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 8. Calculation of precision and sensitivity
 
 <pre>
-
+ [wlku@matrix CRK] matlab -nodesktop
+ >> run ./src/Figure2_code/generate_pre_sen.m
+ >> exit
 </pre>
 
 
