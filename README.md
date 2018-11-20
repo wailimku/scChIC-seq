@@ -203,15 +203,16 @@ E. Gene expression and H3K4me3
 ---------------------------------------------------------
 
 <pre>
->> clear all
->> run ./src/Figure4_code/single_cell_compute_bulk_wbc_rna_seq.m
->> run ./src/Figure4_code/single_cell_analyze_corr_scRNA_in_concen_mat2(1,1)
+[wlku@matrix CRK] cd src/Figure4_code
+[wlku@matrix Figure4_code] matlab -nodesktop
+>> single_cell_analyze_corr_scRNA_in_concen_mat2(1,1,4,5.3)
 </pre>
 <p><img src="Figures/Figure4/scrna_het.jpg" alt="Fig 4a" width="400" vspace="20" hspace="5" >
 
 <pre>
->> run ./src/Figure4_code/single_cell_analyze_corr_scRNA_in_concen_mat2(1,2)
+>> single_cell_analyze_corr_scRNA_in_concen_mat2(1,2, 0.5.30.6
 </pre>
+<p><img src="Figures/Figure4/scrna_coexp.jpg" alt="Fig 4a" width="400" vspace="20" hspace="5" >
 
 F. Finding the enriched TFs
 ---------------------------------------------------------
