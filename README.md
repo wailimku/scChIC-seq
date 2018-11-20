@@ -185,7 +185,13 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 D. Cell clustering of human WBCs
 ---------------------------------------------------------
 
+1. To do the cell clustering, we first do the ScImpute. Batch effect is removed using the non-negative matrix factoriation (nnmf). Finally, the software SC3 was applied for cell clustering. All the script are included in ./src/Figure3_code/ . Here, the corected matrix and the output of SC3 used in the manuscript are provided in ./data/input/Figure3/. 
 
+2. Visulization of Concensus matrix 
+<pre>
+ [wlku@matrix CRK] matlab -nodesktop
+ >> run ./src/Figure2_code/generate_pre_sen.m
+</pre>
 
 E. Gene expression and H3K4me3
 ---------------------------------------------------------
