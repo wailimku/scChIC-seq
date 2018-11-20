@@ -282,10 +282,10 @@ G. H3K27me3 profiling in human WBCs
 
 <pre>
 </pre>
-<p><img src="Figures/Figure6/Figure6c.jpg" alt="Fig 6c" width="400" vspace="20"></p>
+<p><img src="Figures/Figure6/Figure6c.jpg" alt="Fig 6c" width="300" vspace="20"></p>
 <pre>
 </pre>
-<p><img src="Figures/Figure6/Figure6d.jpg" alt="Fig 6d" width="400" vspace="20"></p>
+<p><img src="Figures/Figure6/Figure6d.jpg" alt="Fig 6d" width="500" vspace="20"></p>
 
 I. References:
 --------------------------------------
