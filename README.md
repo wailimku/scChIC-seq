@@ -1,4 +1,4 @@
-# CRK (continue to update 20-November-2018, I go to sleep now)
+# CRK (updating 20-Novemver-2018)
 
 Email contact: comamabb@gmail.com
 
