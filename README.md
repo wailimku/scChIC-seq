@@ -260,8 +260,11 @@ F. Finding the enriched TFs
 <pre>
 [wlku@matrix CRK] matlab -nodesktop
 >> cd src/Figuere5_code/
->>
->> 
+>> single_cell_analyze_chromvar_deviation_Tcell2(1)
+</pre>
+
+<pre>
+>> single_cell_analyze_chromvar_deviation_Tcell2(1)
 </pre>
 
 G. H3K27me3 profiling in human WBCs
