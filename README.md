@@ -176,8 +176,10 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
  >> run ./src/Figure2_code/generate_pre_sen.m
  >> exit
 </pre>
+<p><img src="Figures/Figure2/pre_sen.jpg" alt="Fig 22" width="300" vspace="20" hspace="5" >
+</p>
 
-
+<p></p>
 D. Cell clustering of human WBCs
 ---------------------------------------------------------
 
