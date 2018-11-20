@@ -290,5 +290,5 @@ G. H3K27me3 profiling in human WBCs
 I. References:
 --------------------------------------
 
-1. SICER
+1. Zang, C. et al. A clustering approach for identification of enriched domains from histone modification ChIP-Seq data. Bioinformatics 25, 1952-1958, doi:10.1093/bioinformatics/btp340 (2009).
 2. HOMER
