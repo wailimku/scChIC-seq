@@ -205,6 +205,12 @@ E. Gene expression and H3K4me3
 <pre>
 >> clear all
 >> run ./src/Figure4_code/single_cell_compute_bulk_wbc_rna_seq.m
+>> run ./src/Figure4_code/single_cell_analyze_corr_scRNA_in_concen_mat2(1,1)
+</pre>
+<p><img src="Figures/Figure4/scrna_het.jpg" alt="Fig 4a" width="400" vspace="20" hspace="5" >
+
+<pre>
+>> run ./src/Figure4_code/single_cell_analyze_corr_scRNA_in_concen_mat2(1,2)
 </pre>
 
 F. Finding the enriched TFs
