@@ -239,7 +239,7 @@ F. Finding the enriched TFs
 
 2. Perform the chromvaranalysis
 <pre>
-[wlku@matrix CRK]
+[wlku@matrix CRK] Rscript ./src/Figure5_code/single_cell_chromVar_analysze_scH3K4me3_cluster_peak_tcell2.r 
 </pre>
 
 3. examine the enriched TFs and their gene expression level
