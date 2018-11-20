@@ -207,12 +207,12 @@ E. Gene expression and H3K4me3
 [wlku@matrix Figure4_code] matlab -nodesktop
 >> single_cell_analyze_corr_scRNA_in_concen_mat2(1,1,4,5.3)
 </pre>
-<p><img src="Figures/Figure4/scrna_het.jpg" alt="Fig 4a" width="400" vspace="20" hspace="5" >
+<p><img src="Figures/Figure4/violin_het_Tcell_zoomin.jpg" alt="Fig 4a" width="400" vspace="20" hspace="5" >
 
 <pre>
->> single_cell_analyze_corr_scRNA_in_concen_mat2(1,2, 0.5.30.6
+>> single_cell_analyze_corr_scRNA_in_concen_mat2(1,2, 0.5., 0.6)
 </pre>
-<p><img src="Figures/Figure4/scrna_coexp.jpg" alt="Fig 4a" width="400" vspace="20" hspace="5" >
+<p><img src="Figures/Figure4/violin_coexp_Tcell_zoomin.jpg" alt="Fig 4b" width="400" vspace="20" hspace="5" >
 
 F. Finding the enriched TFs
 ---------------------------------------------------------
