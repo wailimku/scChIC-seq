@@ -160,7 +160,8 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix CRK] less ./data/temp/Figure2/sel_242_file.txt|awk '{print "cp ./data/temp/Figure2/filtered_bed/"$1 " ./data/temp/Figure2/filtered_bed/sel_242_bed"}' > ./src/Figure2_code/script_cp_242_bed 
 [wlku@matrix CRK] sh ./src/Figure2_code/script_cp_242_bed
 [wlku@matrix CRK] Rscript ./src/Figure2_code/single_cell_plot_scatter_plots_between_pool_bulk_bed2table.r
-[wlku@matrix CRK] Rscript ./
+[wlku@matrix CRK] Rscript ./src/Figure2_code/single_cell_plot_scatter_plots_between_pool_bulk.r
+[wlku@matrix CRK] xpdf ./Figures/Figure2/scatter_bulk_pooledsc_at_H3K4me3peaks.pdf
 </pre>
 
 D. Cell clustering of human WBCs
