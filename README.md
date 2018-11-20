@@ -233,11 +233,15 @@ F. Finding the enriched TFs
 <pre>
 >> cd ../Figure5_code
 >> run single_cell_analyze_impute_readcount_conet_tcell3
+>> exit
+[wlku@matrix Figure4_code] cd ..
 </pre>
 
 2. Perform the chromvaranalysis
 <pre>
+[wlku@matrix CRK]
 </pre>
+
 3. examine the enriched TFs and their gene expression level
 <pre>
 </pre>
