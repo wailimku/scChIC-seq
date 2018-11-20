@@ -231,7 +231,10 @@ F. Finding the enriched TFs
 
 1. Selection of the two peak sets
 <pre>
+>> cd ../Figure5_code
+>> run single_cell_analyze_impute_readcount_conet_tcell3
 </pre>
+
 2. Perform the chromvaranalysis
 <pre>
 </pre>
