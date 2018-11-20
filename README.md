@@ -202,6 +202,10 @@ D. Cell clustering of human WBCs
 E. Gene expression and H3K4me3
 ---------------------------------------------------------
 
+<pre>
+>> clear all
+>> run ./src/Figure4_code/single_cell_compute_bulk_wbc_rna_seq.m
+</pre>
 
 F. Finding the enriched TFs
 ---------------------------------------------------------
