@@ -193,9 +193,9 @@ D. Cell clustering of human WBCs
  >> run ./src/Figure2_code/single_cell_annotate_cluster_to_celltype.m
 </pre>
 
-<p><img src="Figures/Figure3/pre_sen.jpg" alt="Fig 3a" width="400" vspace="20" hspace="5" >
+<p><img src="Figures/Figure3/cluster3.jpg" alt="Fig 3a" width="400" vspace="20" hspace="5" >
 
-<p><img src="Figures/Figure3/pre_sen.jpg" alt="Fig 3b" width="400" vspace="20" hspace="5" >
+<p><img src="Figures/Figure3/celltype_heatmap.jpg" alt="Fig 3b" width="400" vspace="20" hspace="5" >
 
 
 E. Gene expression and H3K4me3
