@@ -208,15 +208,22 @@ E. Gene expression and H3K4me3
 >> single_cell_analyze_corr_scRNA_in_concen_mat2(1,1,4,5.3)
 </pre>
 <p><img src="Figures/Figure4/violin_het_Tcell_zoomin.jpg" alt="Fig 4a" width="300" vspace="20" hspace="5" >
-
+</p>
 <pre>
 >> single_cell_analyze_corr_scRNA_in_concen_mat2(1,2, 0.5, 0.6)
 </pre>
 <p><img src="Figures/Figure4/violin_coexp_Tcell_zoomin.jpg" alt="Fig 4b" width="300" vspace="20" hspace="5" >
+</p>	
 <pre>
->> single_cell_compute_bulk_wbc_rna_seq
->> 
+>> single_cell_analyze_impute_readcount2(1)
 </pre>
+<p><img src="Figures/Figure4/violin_coexp_Tcell_zoomin.jpg" alt="Fig 4b" width="300" vspace="20" hspace="5" >
+</p>	
+<pre>
+>> single_cell_analyze_impute_readcount2(2)
+</pre>
+<p><img src="Figures/Figure4/violin_coexp_Tcell_zoomin.jpg" alt="Fig 4b" width="300" vspace="20" hspace="5" >
+</p>	
 
 F. Finding the enriched TFs
 ---------------------------------------------------------
