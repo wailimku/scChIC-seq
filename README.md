@@ -158,6 +158,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 <pre>
 [wlku@matrix CRK] mkdir ./data/temp/Figure2/filtered_bed/sel_242_bed
 [wlku@matrix CRK] less ./data/temp/Figure2/sel_242_file.txt|awk '{print "cp ./data/temp/Figure2/filtered_bed/"$1 " ./data/temp/Figure2/filtered_bed/sel_242_bed"}' > ./src/Figure2_code/script_cp_242_bed 
+[wlku@matrix CRK] sh ./src/Figure2_code/script_cp_242_bed
 </pre>
 
 D. Cell clustering of human WBCs
