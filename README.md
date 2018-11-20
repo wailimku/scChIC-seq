@@ -244,6 +244,10 @@ F. Finding the enriched TFs
 
 3. examine the enriched TFs and their gene expression level
 <pre>
+[wlku@matrix CRK] matlab -nodesktop
+>> cd src/Figuere5_code/
+>>
+>> 
 </pre>
 
 G. H3K27me3 profiling in human WBCs
