@@ -164,6 +164,11 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix CRK] xpdf ./Figures/Figure2/scatter_bulk_pooledsc_at_H3K4me3peaks.pdf
 </pre>
 
+
+<p><img src="Figures/Figure2/scatter_plot.jpg" alt="Fig 2d" width="300" vspace="20" hspace="5" >
+</p>
+<p>This is Figure 2d/p>
+
 D. Cell clustering of human WBCs
 ---------------------------------------------------------
 
