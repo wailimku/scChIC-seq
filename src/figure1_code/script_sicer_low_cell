@@ -1,0 +1,8 @@
+sh $SICERDIR/SICER-rb.sh ./GSE105012/ GSM3475877_KZ1252_GB0640_0_0_mapq10_noDup.bed ./data/temp/Figure1/ mm9 1 200 150 0.6 200 500
+sh $SICERDIR/SICER-rb.sh ./GSE105012/ GSM3475847_GB0451_0_0_mapq10_noDup.bed ./data/temp/Figure1/ mm9 1 200 150 0.6 200 100
+sh $SICERDIR/SICER.sh ./GSE105012/ GSM3475849_GB0475_0_0_mapq10_noDup.bed GSM3475850_GB0480_0_0_mapq10_noDup.bed ./data/temp/Figure1/ mm9 1 200 150 0.6 200 .01
+sh $SICERDIR/SICER.sh ./GSE105012/ GSM3475851_GB0476_0_0_mapq10_noDup.bed GSM3475852_GB0601_0_0_mapq10_noDup.bed ./data/temp/Figure1/ mm9 1 200 150 0.6 200 .01
+sh $SICERDIR/SICER.sh ./GSE105012/ GSM3475853_GB0477_0_0_mapq10_noDup.bed GSM3475854_GB0602_0_0_mapq10_noDup.bed ./data/temp/Figure1/ mm9 1 200 150 0.6 200 .01
+
+
+#sh $SICERDIR/SICER-rb.sh ./src/output/Figure1/ KZ730-GA6909_0_0_mapq10_noDup.bed ./src/output/Figure1/ mm9 1 200 150 0.6 200 .00000001
