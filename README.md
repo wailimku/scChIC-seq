@@ -313,6 +313,9 @@ G. H3K27me3 profiling in human WBCs
 
 3.
 <pre>
+[wlku@matrix CRK] cd GSE105012
+[wlku@matrix GSE105012] ls *_IB2_0_30_mapq10_noDup.bed|awk '{print "cp "$1" "$1".txt"}'>script_cp_bed2txt
+[wlku@matrix GSE105012] sh script_cp_bed2txt
 </pre>
 <p><img src="Figures/Figure6/Figure6c.jpg" alt="Fig 6c" width="300" vspace="20"></p>
 <pre>
