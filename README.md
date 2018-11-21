@@ -321,7 +321,8 @@ G. H3K27me3 profiling in human WBCs
 [wlku@matrix CRK] mkdir data/temp/Figure6/filtered_bed
 [wlku@matrix CRK] matlab -nodesktop
 >> run ./src/Figure6_code/singlecell_filter_reads_by_peak_H3K27me3
->> 
+>> exit
+[wlku@matrix CRK] 
 </pre>
 <p><img src="Figures/Figure6/Figure6c.jpg" alt="Fig 6c" width="300" vspace="20"></p>
 <pre>
