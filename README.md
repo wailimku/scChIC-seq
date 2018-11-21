@@ -295,10 +295,12 @@ G. H3K27me3 profiling in human WBCs
 [wlku@matrix CRK] cd GSE105012
 [wlku@matrix GSE105012] cat *_IB2_0_30_mapq10_noDup.bed > H3K27me3_combined_106.bed
 [wlku@matrix GSE105012] ../generateRPBMBasedSummary H3K27me3_combined_106.bed ../hg18_chrlen.txt 1000 75 n H3K27me3_combined_106.bedgraph 
+[wlku@matrix GSE105012] cd ..
 </pre>
 
 2. Overlap of peaks
 <pre>
+[wlku@matrix CRK] sh ./src/Figure6_code/script_poolsc_sicer
 [wlku@matrix CRK] Rscript ./src/Figure6_code/peak_overlap_analysze_scH3K27me3.r
 [1] "Bulk wbc cell, number of H3K27me3 peaks = "
 [1] 36224
