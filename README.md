@@ -247,6 +247,7 @@ F. Finding the enriched TFs
 <pre>
 >> cd ../Figure5_code
 >> run single_cell_analyze_impute_readcount_conet_tcell3
+>> run single_cell_analyze_impute_readcount_conet_mono3
 >> exit
 [wlku@matrix Figure4_code] cd ..
 </pre>
@@ -254,6 +255,8 @@ F. Finding the enriched TFs
 2. Perform the chromvaranalysis
 <pre>
 [wlku@matrix CRK] Rscript ./src/Figure5_code/single_cell_chromVar_analysze_scH3K4me3_cluster_peak_tcell2.r 
+[wlku@matrix CRK] Rscript ./src/Figure5_code/single_cell_chromVar_analysze_scH3K4me3_cluster_peak_mono2.r
+
 </pre>
 
 3. examine the enriched TFs and their gene expression level
@@ -267,10 +270,22 @@ F. Finding the enriched TFs
 		
 <pre>
 >> single_cell_analyze_chromvar_deviation_Tcell2(2)
->> exit
 </pre>
 
 <p><img src="Figures/Figure5/figure5b_c.jpg" alt="Figs. 5b and c" width="600" vspace="20"></p>
+
+<pre>
+>> 
+>> single_cell_analyze_chromvar_deviation_mono2(1)
+</pre>
+
+<p><img src="Figures/Figure5/Figure5d.jpg" alt="Fig 5d" width="400" vspace="20"></p>
+		
+<pre>
+>> single_cell_analyze_chromvar_deviation_mono2(2)
+</pre>
+
+<p><img src="Figures/Figure5/figure5e_f.jpg" alt="Figs. 5e and f" width="600" vspace="20"></p>
 
 
 G. H3K27me3 profiling in human WBCs
