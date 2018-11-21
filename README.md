@@ -321,4 +321,4 @@ I. References:
 --------------------------------------
 
 1. Zang, C. et al. A clustering approach for identification of enriched domains from histone modification ChIP-Seq data. Bioinformatics 25, 1952-1958, doi:10.1093/bioinformatics/btp340 (2009).
-2. HOMER
+2. Heinz S, Benner C, Spann N, Bertolino E et al. Simple Combinations of Lineage-Determining Transcription Factors Prime cis-Regulatory Elements Required for Macrophage and B Cell Identities. Mol Cell May 28;38(4):576-589 (2010).
