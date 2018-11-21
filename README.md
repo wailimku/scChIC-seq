@@ -35,8 +35,8 @@ A. Download files
 <pre>
 [wlku@matrix CRK] cd GSE105012
 [wlku@matrix GSE105012] ls
-[wlku@matrix GSE105012] GSE105012.tar
-[wlku@matrix GSE105012] tar -xvf GSE105012.tar
+[wlku@matrix GSE105012] GSE105012_RAW.tar
+[wlku@matrix GSE105012] tar -xvf GSE105012_RAW.tar
 [wlku@matrix GSE105012] gunzip *.gz
 [wlku@matrix GSE105012] cd ..
 </pre>
