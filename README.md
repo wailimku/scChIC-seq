@@ -84,7 +84,7 @@ This is Figure 1d
 4. Compute the peak overlap between Bulk Cell ChIP-seq and low cell number library
 <pre>
 [wlku@matrix Figure1] cd ../../
-[wlku@matrix CRK] Rscript ./src/Figure1_code/peaks_overlap_for_3T3_cells.r 1
+[wlku@matrix CRK] Rscript ./src/figure1_code/peaks_overlap_for_3T3_cells.r 1
 [1] "Bulk cell, number of peaks = "
 [1] 16773
 [1] "3000 cells scChIC-seq, number of peaks = "
@@ -97,7 +97,7 @@ This is Figure 1d
 5. Compute Clustering heatmap for 3T3, ESC, and Naive T cells
 <pre>
 [wlku@matrix CRK] matlab -nodesktop
->> run ./src/Figure1_code/analyze_H3K4me3_diff_cells_w_routput
+>> run ./src/figure1_code/analyze_H3K4me3_diff_cells_w_routput
 </pre>
 <p></p>
 
