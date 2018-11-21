@@ -152,7 +152,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 <pre>
 [wlku@matrix CRK] sh ./src/figure2_code/script_homer_sctss
 [wlku@matrix CRK] matlab -nodesktop
->> run ./src/Figure2_code/scTss_plot.m
+>> run ./src/figure2_code/scTss_plot.m
 >> exit
 </pre>
 
