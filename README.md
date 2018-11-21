@@ -133,7 +133,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 
 3. The bedgrapgh file for the pooled cells (281 cells) is generated. This bedgraph files could be uploaded to genome browser for visualization.
 <pre>
-[wlku@matrix CRK] ./generateRPBMBasedSummary ./GSE105012/combined_sc_white_blood_cell.bed hg18_chrlen.txt 1000 75 n ./GSE105012/combined_sc_white_blood_cell.bedgraph 
+[wlku@matrix CRK] ./genbedgraph ./GSE105012/combined_sc_white_blood_cell.bed hg18_chrlen.txt 1000 75 n ./GSE105012/combined_sc_white_blood_cell.bedgraph 
 </pre>
 
 4. Call peaks for the pooled cells using SICER [1], and compute the overlaps of peaks between bulk and pooled cells
