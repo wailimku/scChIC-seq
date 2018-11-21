@@ -124,7 +124,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix GSE105012] wc -l *_sc1_0_30_mapq10_noDup.bed|awk '{print $1"\t"$2}'|head -n 285 > ../data/input/Figure2/wc_sc1_bed.txt
 [wlku@matrix GSE105012] cd ..
 [wlku@matrix CRK] matlab -nodesktop
->> run ./src/Figure2_code/single_cell_H3k4me3_filter_large_outlier
+>> run ./src/figure2_code/single_cell_H3k4me3_filter_large_outlier
 >> exit
 [wlku@matrix CRK] cd GSE105012
 [wlku@matrix GSE105012] sh script_cat_sc
@@ -191,7 +191,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 
 <pre>
  [wlku@matrix CRK] matlab -nodesktop
- >> run ./src/Figure2_code/generate_pre_sen.m
+ >> run ./src/figure2_code/generate_pre_sen.m
  >> exit
 </pre>
 <p><img src="Figures/Figure2/pre_sen.jpg" alt="Fig 22" width="400" vspace="20" hspace="5" >
@@ -208,7 +208,7 @@ D. Cell clustering of human WBCs
 2. Visulization of Concensus matrix and assign cell types to clusters
 <pre>
  [wlku@matrix CRK] matlab -nodesktop
- >> run ./src/Figure2_code/single_cell_annotate_cluster_to_celltype.m
+ >> run ./src/figure2_code/single_cell_annotate_cluster_to_celltype.m
 </pre>
 
 <p><img src="Figures/Figure3/cluster3.jpg" alt="Fig 3a" width="400" vspace="20" hspace="5" >
