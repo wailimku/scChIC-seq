@@ -30,9 +30,9 @@ for i =1: nlines
     a = fscanf(fp, '%s', 1);
     chr1(i) = cellstr(a);
     b = fscanf(fp, '%d', 1);
-    peak_ss1(i) = b;
+    peak_ss1(i) = b + 2000;
     b = fscanf(fp, '%d', 1);
-    peak_es1(i) = b;
+    peak_es1(i) = b - 2000;
     b = fscanf(fp, '%f', 1);
 end;    
 fclose(fp);
