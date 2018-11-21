@@ -138,8 +138,8 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 
 4. Call peaks for the pooled cells using SICER [1], and compute the overlaps of peaks between bulk and pooled cells
 <pre>
-[wlku@matrix CRK] sh ./src/Figure2_code/script_poolsc_sicer
-[wlku@matrix CRK] Rscript ./src/Figure2_code/peakoverlap_bulk_poolsc_H3k4me3.r 
+[wlku@matrix CRK] sh ./src/figure2_code/script_poolsc_sicer
+[wlku@matrix CRK] Rscript ./src/figure2_code/peakoverlap_bulk_poolsc_H3k4me3.r 
 [1] "Bulk wbc cell, number of H3K4me3 peaks = "
 [1] 52798
 [1] "Pooled cells, number of H3K4me3 peaks = "
@@ -150,7 +150,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 
 5. Plot TSS profiles plot (<b>Figure 2b</b>)
 <pre>
-[wlku@matrix CRK] sh ./src/Figure2_code/script_homer_sctss
+[wlku@matrix CRK] sh ./src/figure2_code/script_homer_sctss
 [wlku@matrix CRK] matlab -nodesktop
 >> run ./src/Figure2_code/scTSS_plot.m
 >> exit
