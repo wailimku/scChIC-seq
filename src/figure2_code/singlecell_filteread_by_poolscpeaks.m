@@ -64,7 +64,6 @@ for i =1:max(size(filename))
     qmis = setdiff(1:1:max(size(read_ss)), q4);
     read1(qmis,:)=[];
     writetable(read1,strcat('../../data/temp/Figure2/filtered_bed/',char(fileout)),'Delimiter','\t','WriteVariableNames',0);
-    toc
 end;    
 
 
