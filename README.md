@@ -291,11 +291,19 @@ F. Finding the enriched TFs
 G. H3K27me3 profiling in human WBCs
 ---------------------------------------------------------
 
+1. Overlap of peaks
 <pre>
+[wlku@matrix CRK] Rscript ./src/Figure6_code/peak_overlap_analysze_scH3K27me3.r
+[1] "Bulk wbc cell, number of H3K27me3 peaks = "
+[1] 36224
+[1] "Pooled cellss number of H3K27me3 peaks = "
+[1] 21465
+[1] "Overlap_peaks = "
+[1] 10730
 </pre>
 
 
-
+2.
 <pre>
 </pre>
 <p><img src="Figures/Figure6/Figure6c.jpg" alt="Fig 6c" width="300" vspace="20"></p>
