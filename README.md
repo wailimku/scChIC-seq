@@ -267,6 +267,7 @@ F. Finding the enriched TFs
 		
 <pre>
 >> single_cell_analyze_chromvar_deviation_Tcell2(2)
+>> exit
 </pre>
 
 <p><img src="Figures/Figure5/figure5b_c.jpg" alt="Figs. 5b and c" width="600" vspace="20"></p>
