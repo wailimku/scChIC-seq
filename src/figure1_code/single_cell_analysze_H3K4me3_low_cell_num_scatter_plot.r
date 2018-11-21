@@ -1,3 +1,6 @@
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly=TRUE)
+
 library(utils)
 library(chromVAR)
 library(motifmatchr)
@@ -9,11 +12,11 @@ set.seed(2017)
 register(MulticoreParam(16))
 register(MulticoreParam(16, progressbar = TRUE))
 
-folder1 = 'temp' ## input
+folder1  <- args[1] ## input
 
 ##1-Figure 1b, 2-Extended Data Fig 4a, 3-Extended Data Fig 4b 4-Extended Data Fig 4c 5-Extended Data Fig 4d
 
-kkk<-5
+kkk<- args[2]
 
 peaks <- getPeaks('./data/input/Figure1/KZ730-GA6909_0_0_mapq10_noDup-W200-G200-E.00000001.scoreisland',sort_peaks = TRUE)
 peaks <-unique(peaks)
@@ -40,7 +43,7 @@ if(kkk==4)
 } 
 if(kkk==5)
 {
-	aa2<-read.table("./data/",folder1,"temp/Figure1/scChIC_100b_3T3_readcount_at_3T3_peak.txt"))
+	aa2<-read.table(paste0("./data/",folder1,"temp/Figure1/scChIC_100b_3T3_readcount_at_3T3_peak.txt"))
 
 }                            
 
@@ -102,3 +105,4 @@ if(kkk==5)
 	text(9,10,labels=paste0("Correlation = ", toString(format(round(acor[1,2], 2), nsmall = 2))), cex=1.5)
 	dev.off() 
 }
+
