@@ -33,3 +33,4 @@ ylabel('H3K4me3 density');%
 title('WBC')
 xlim([1,501]);
 legend('pooled single cells','only one single cell');
+
