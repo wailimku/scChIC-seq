@@ -279,7 +279,7 @@ F. Finding the enriched TFs
 >> single_cell_analyze_chromvar_deviation_mono2(1)
 </pre>
 
-<p><img src="Figures/Figure5/Figure5d.jpg" alt="Fig 5d" width="400" vspace="20"></p>
+<p><img src="Figures/Figure5/figure5d.jpg" alt="Fig 5d" width="400" vspace="20"></p>
 		
 <pre>
 >> single_cell_analyze_chromvar_deviation_mono2(2)
