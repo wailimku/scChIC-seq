@@ -168,7 +168,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix GSE105012] sh script_cp_bed2txt
 [wlku@matrix GSE105012] cd ..
 [wlku@matrix CRK]  matlab -nodesktop
->> run ./src/figure2_code/singlecell_filteread_by_poolscpeaks.m
+>> run ./src/figure2_code/singlecell_filter_reads_by_pooledcellpeaks.m
 >> exit
 </pre>
 
