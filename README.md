@@ -326,7 +326,7 @@ G. H3K27me3 profiling in human WBCs
 >> run ./src/Figure6_code/singlecell_filter_reads_by_peak_H3K27me3
 >> exit
 [wlku@matrix CRK] Rscript ./src/Figure6_code/single_cell_analysze_scH3K27me3_using_chromvar2.r
-[wlku@matrix CRK] xpdf ./Figures/Figure6/
+[wlku@matrix CRK] xpdf ./Figures/Figure6/scatter_bulk_pooledsc_at_H3K27me3peaks_3.pdf
 </pre>
 
 <p><img src="Figures/Figure6/Figure6c.jpg" alt="Fig 6c" width="300" vspace="20"></p>
