@@ -1,7 +1,7 @@
 
 
-path1 = './data/output/Figure1/';
-path2 = './data/output/Figure1/';
+path1 = '../../data/output/Figure1/';
+path2 = '../../data/output/Figure1/';
 
 a = readtable(strcat(char(path1),'bulk_diffcell_readcount_at_compeak.txt'));
 a0 = table2array(a(:,2:4));
@@ -58,6 +58,7 @@ end;
 
 subplot(1,2,1);
 imagesc(pclus_th2_zs(:,[1,2,3]));
+addpath('../../');
 AdvancedColormap('bwr');
 set(gca, 'XTick', 1:3);
 set(gca, 'XTickLabel', {'3T3','ESC','naive'});
@@ -75,3 +76,4 @@ set(gca, 'XTickLabel', {'3T3','ESC','naive'});
 set(gca, 'YTickLabel', {});
 title('Bulk cells ChIP-seq');
 caxis([prctile(clus_th2_zs(:),5),prctile(clus_th2_zs(:),95)]);
+
