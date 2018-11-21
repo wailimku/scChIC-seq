@@ -13,7 +13,7 @@ This repository includes a number of sections describing the analyses in the man
 4. Pre-processing of scATAC-seq data
 5. The analysis of the data in the manuscript.
 
-First, I am working on the point 5. Since the processed files are assumed to be available in point 5, point5 is goint to be finished first. I am sorry for the slow updating progress. It is becasue I am repeating every step of the analysis and trying to generating scripts that could be executed easier. <b> The initial version of point 5 is expteced to be finished tonight (20-November-2018)</b>. The "initial version" means that main figures could be generated using the scripts. A more detailed version and describtion would be provided afterwards.
+First, I am working on the point 5. Since the processed files are assumed to be available in point 5, point5 is goint to be finished first. I am sorry for the slow updating progress. It is becasue I am repeating every step of the analysis and trying to generating scripts that could be executed easier. <b> The initial version of point 5 is expteced to be finished on 21-November-2018 </b>. The "initial version" means that main figures could be generated using the scripts. A more detailed version and describtion would be provided afterwards.
 
 After point5, then I will work on the other sections. That are how the processed data was generated.
 
