@@ -293,7 +293,8 @@ G. H3K27me3 profiling in human WBCs
 1. 
 <pre>
 [wlku@matrix CRK] cd GSE105012
-[wlku@matrix CRK] cat *_IB2_0_30_mapq10_noDup.bed > H3K27me3_combined_106.bed
+[wlku@matrix GSE105012] cat *_IB2_0_30_mapq10_noDup.bed > H3K27me3_combined_106.bed
+[wlku@matrix GSE105012] ../generateRPBMBasedSummary H3K27me3_combined_106.bed ../hg18_chrlen.txt 1000 75 n H3K27me3_combined_106.bedgraph 
 </pre>
 
 2. Overlap of peaks
