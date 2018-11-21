@@ -65,8 +65,8 @@ single_cell_3T3_tss_profile_plots(n,m): n=1 or 2, m =1 or 0.
 
 3. Plot the scatter plots between 3T3 bulk cell ChIP-data seq data and low cell number data
 <pre>
-[wlku@matrix CRK] Rscript ./src/Figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_bed2table.r
-[wlku@matrix CRK] Rscript ./src/Figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_plot.r temp 1
+[wlku@matrix CRK] Rscript ./src/figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_bed2table.r
+[wlku@matrix CRK] Rscript ./src/figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_plot.r temp 1
 [wlku@matrix CRK] cd Figures/Figure1/
 [wlku@matrix Figure1] ls
 [wlku@matrix Figure1] scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.pdf
