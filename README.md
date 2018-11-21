@@ -1,4 +1,4 @@
-# CRK (updating 20-Novemver-2018 11:40pm US EST)
+# CRK (udate again after 2pm EST 21-November-2018)
 
 Email contact: comamabb@gmail.com
 
