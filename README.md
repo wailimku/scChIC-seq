@@ -55,7 +55,7 @@ B. H3K4me3 profiling  using low cell number 3T3 cells
 <pre>
 [wlku@matrix CRK] sh ./src/figure1_code/script_run_homer_1
 [wlku@matrix CRK] matlab -nodesktop
->> run ./src/Figure1_code/single_cell_3T3_tss_profile_plots(1,0)
+>> run ./src/figure1_code/single_cell_3T3_tss_profile_plots(1,0)
 </pre>
 
 <p>A figure (Figure 1b) is shown by matlab</p>
