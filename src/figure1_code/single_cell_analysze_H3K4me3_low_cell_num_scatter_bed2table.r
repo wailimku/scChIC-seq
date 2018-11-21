@@ -87,3 +87,4 @@ write.table(xx2,"./data/temp/Figure1/scChIC_3000b_3T3_readcount_at_3T3_peak.txt"
 write.table(xx3,"./data/temp/Figure1/scChIC_1000b_readcount_at_3T3_peak.txt")                                                              
 write.table(xx4,"./data/temp/Figure1/scChIC_300b_3T3_readcount_at_3T3_peak.txt")                                                              
 write.table(xx5,"./data/temp/Figure1/scChIC_100b_3T3_readcount_at_3T3_peak.txt")
+
