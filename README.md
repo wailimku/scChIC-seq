@@ -223,8 +223,8 @@ E. Gene expression and H3K4me3
 ---------------------------------------------------------
 
 <pre>
-[wlku@matrix CRK] cd src/Figure4_code
-[wlku@matrix Figure4_code] matlab -nodesktop
+[wlku@matrix CRK] cd src/figure4_code
+[wlku@matrix figure4_code] matlab -nodesktop
 >> single_cell_analyze_corr_scRNA_in_concen_mat2(1,1,4,5.3)
 </pre>
 <p><img src="Figures/Figure4/violin_het_Tcell_zoomin.jpg" alt="Fig 4a" width="300" vspace="20" hspace="5" >
@@ -250,17 +250,17 @@ F. Finding the enriched TFs
 
 1. Selection of the two peak sets
 <pre>
->> cd ../Figure5_code
+>> cd ../figure5_code
 >> run single_cell_analyze_impute_readcount_conet_tcell3
 >> run single_cell_analyze_impute_readcount_conet_mono3
 >> exit
-[wlku@matrix Figure4_code] cd ..
+[wlku@matrix figure4_code] cd ..
 </pre>
 
 2. Perform the chromvaranalysis
 <pre>
-[wlku@matrix CRK] Rscript ./src/Figure5_code/single_cell_chromVar_analysze_scH3K4me3_cluster_peak_tcell2.r 
-[wlku@matrix CRK] Rscript ./src/Figure5_code/single_cell_chromVar_analysze_scH3K4me3_cluster_peak_mono2.r
+[wlku@matrix CRK] Rscript ./src/figure5_code/single_cell_chromVar_analysze_scH3K4me3_cluster_peak_tcell2.r 
+[wlku@matrix CRK] Rscript ./src/figure5_code/single_cell_chromVar_analysze_scH3K4me3_cluster_peak_mono2.r
 
 </pre>
 
@@ -305,8 +305,8 @@ G. H3K27me3 profiling in human WBCs
 
 2. Overlap of peaks
 <pre>
-[wlku@matrix CRK] sh ./src/Figure6_code/script_poolsc_sicer
-[wlku@matrix CRK] Rscript ./src/Figure6_code/peak_overlap_analysze_scH3K27me3.r
+[wlku@matrix CRK] sh ./src/figure6_code/script_poolsc_sicer
+[wlku@matrix CRK] Rscript ./src/figure6_code/peak_overlap_analysze_scH3K27me3.r
 [1] "Bulk wbc cell, number of H3K27me3 peaks = "
 [1] 36224
 [1] "Pooled cellss number of H3K27me3 peaks = "
@@ -329,7 +329,7 @@ G. H3K27me3 profiling in human WBCs
 [wlku@matrix CRK] matlab -nodesktop
 >> run ./src/Figure6_code/singlecell_filter_reads_by_peak_H3K27me3
 >> exit
-[wlku@matrix CRK] Rscript ./src/Figure6_code/single_cell_analysze_scH3K27me3_using_chromvar2.r
+[wlku@matrix CRK] Rscript ./src/figure6_code/single_cell_analysze_scH3K27me3_using_chromvar2.r
 [wlku@matrix CRK] xpdf ./Figures/Figure6/scatter_bulk_pooledsc_at_H3K27me3peaks_3.pdf
 </pre>
 
