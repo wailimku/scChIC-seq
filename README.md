@@ -223,6 +223,7 @@ E. Gene expression and H3K4me3
 ---------------------------------------------------------
 
 <pre>
+[wlku@matrix CRK] gunzip ./data/input/Figure4/scimpute/*.gz
 [wlku@matrix CRK] cd src/figure4_code
 [wlku@matrix figure4_code] matlab -nodesktop
 >> single_cell_analyze_corr_scRNA_in_concen_mat2(1,1,4,5.3)
