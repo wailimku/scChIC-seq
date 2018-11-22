@@ -300,7 +300,7 @@ G. H3K27me3 profiling in human WBCs
 <pre>
 [wlku@matrix CRK] cd GSE105012
 [wlku@matrix GSE105012] cat *_IB2_0_30_mapq10_noDup.bed > H3K27me3_combined_106.bed
-[wlku@matrix GSE105012] ../generateRPBMBasedSummary H3K27me3_combined_106.bed ../hg18_chrlen.txt 1000 75 n H3K27me3_combined_106.bedgraph 
+[wlku@matrix GSE105012] ../genbedgraph H3K27me3_combined_106.bed ../hg18_chrlen.txt 1000 75 n H3K27me3_combined_106.bedgraph 
 [wlku@matrix GSE105012] cd ..
 </pre>
 
