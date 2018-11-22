@@ -172,7 +172,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 7. Filter non-informative cells
 <pre>
 >> run ./src/figure2_code/single_cell_analyze_285_sc_sel_242_cells.m
->>exit
+>> exit
 </pre>
 
 8. Plot scatter plots between pooled cells and bulk cells
