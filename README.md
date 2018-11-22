@@ -323,12 +323,12 @@ G. H3K27me3 profiling in human WBCs
 [wlku@matrix GSE105012] sh script_cp_bed2txt
 [wlku@matrix GSE105012] cd ..
 [wlku@matrix CRK] mkdir data/temp/Figure6/filtered_bed
-[wlku@matrix CRK] cd /data/temp/Figure6/filtered_bed
+[wlku@matrix CRK] matlab -nodesktop
+>> run ./src/figure6_code/singlecell_filter_reads_by_peak_H3K27me3
+>> exit
+[wlku@matrix CRK] cd data/temp/Figure6/filtered_bed
 [wlku@matrix filtered_bed] wc -l *.txt|awk '{print $1"\t"$2}'|head -n 106 >../sel_filterlist_106.txt
 [wlku@matrix filtered_bed] cd ../../../..
-[wlku@matrix CRK] matlab -nodesktop
->> run ./src/Figure6_code/singlecell_filter_reads_by_peak_H3K27me3
->> exit
 [wlku@matrix CRK] Rscript ./src/figure6_code/single_cell_analysze_scH3K27me3_using_chromvar2.r
 [wlku@matrix CRK] xpdf ./Figures/Figure6/scatter_bulk_pooledsc_at_H3K27me3peaks_3.pdf
 </pre>
