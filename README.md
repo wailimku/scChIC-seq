@@ -1,4 +1,4 @@
-# CRK (21-November-2018, go to sleep earlier today. Finish point 5 tomorrow)
+# CRK (updating 22-november-2018,9:30am EST)
 # Happy Thanksgiving!!
 
 Email contact: comamabb@gmail.com
