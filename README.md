@@ -211,7 +211,7 @@ D. Cell clustering of human WBCs
 2. Visulization of Concensus matrix and assign cell types to clusters
 <pre>
  [wlku@matrix CRK] matlab -nodesktop
- >> run ./src/figure2_code/single_cell_annotate_cluster_to_celltype.m
+ >> run ./src/figure3_code/single_cell_annotate_cluster_to_celltype.m
 </pre>
 
 <p><img src="Figures/Figure3/cluster3.jpg" alt="Fig 3a" width="400" vspace="20" hspace="5" >
