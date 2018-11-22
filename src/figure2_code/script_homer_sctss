@@ -288,5 +288,6 @@ makeTagDirectory GSM3476163_GB3861_sc GSM3476163_KZ1438_GB3861_sc1_0_30_mapq10_n
 
 
 annotatePeaks.pl tss hg18 -size 5000 -hist 10 -len 1 -d GSM*GB*sc/ >../data/temp/Figure2/tss_homer_output2.txt
+annotatePeaks.pl tss hg18 -size 2000 -hist 100 -len 1 -d GSM*GB*sc/ >../data/temp/Figure2/output2.txt
 
 cd ../
