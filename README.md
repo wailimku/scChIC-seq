@@ -336,7 +336,7 @@ G. H3K27me3 profiling in human WBCs
 <p><img src="Figures/Figure6/Figure6c.jpg" alt="Fig 6c" width="300" vspace="20"></p>
 <pre>
 [wlku@matrix CRK] matlab -nodsktop
->> run ./src/Figure6_code/generate_pre_sen_scH3K27me3.m
+>> run ./src/figure6_code/generate_pre_sen_scH3K27me3.m
 >> exit
 </pre>
 <p><img src="Figures/Figure6/Figure6d.jpg" alt="Fig 6d" width="500" vspace="20"></p>
