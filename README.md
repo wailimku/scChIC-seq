@@ -1,7 +1,6 @@
 # CRK (updating 22-november-2018,9:30am EST)
 # Happy Thanksgiving!!
 
-Email contact: comamabb@gmail.com
 
 Introduction
 --------------------------------------
