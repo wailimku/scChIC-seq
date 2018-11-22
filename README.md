@@ -1,4 +1,4 @@
-# CRK (testing point #1  22-november-2018,9:30am EST)
+# CRK (testing point #1, 22-november-2018)
 # Happy Thanksgiving!!
 
 
