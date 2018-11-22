@@ -232,7 +232,7 @@ sc3_cell = table2array(sc3_cellclus(:,2));
 
 
    
-fig2 = Figure;
+fig2 = figure;
 for i = 1:7
     q = find(sc3_cell==i);
     scatter3(v1(q,1),v1(q,2),v1(q,3),'filled');
