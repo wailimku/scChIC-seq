@@ -167,10 +167,15 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [wlku@matrix GSE105012] cd ..
 [wlku@matrix CRK]  matlab -nodesktop
 >> run ./src/figure2_code/singlecell_filter_reads_by_pooledcellpeaks.m
->> exit
 </pre>
 
-7. Plot scatter plots between pooled cells and bulk cells
+7. Filter non-informative cells
+<pre>
+>> run ./src/figure2_code/single_cell_analyze_285_sc_sel_242_cells.m
+>>exit
+</pre>
+
+8. Plot scatter plots between pooled cells and bulk cells
 <pre>
 [wlku@matrix CRK] mkdir ./data/temp/Figure2/filtered_bed/sel_242_bed
 [wlku@matrix CRK] less ./data/temp/Figure2/sel_242_file.txt|awk '{print "cp ./data/temp/Figure2/filtered_bed/"$1 " ./data/temp/Figure2/filtered_bed/sel_242_bed"}' > ./src/Figure2_code/script_cp_242_bed 
@@ -185,7 +190,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 </p>
 <p>This is Figure 2d</p>
 
-8. Calculation of precision and sensitivity
+9. Calculation of precision and sensitivity
 
 <pre>
  [wlku@matrix CRK] matlab -nodesktop
