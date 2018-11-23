@@ -71,7 +71,7 @@ if(kkk==1)
 }
 if(kkk==2)
 {
-	pdf("./Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Extfig.pdf")
+	pdf("./Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Extfiga.pdf")
 	smoothScatter(xdata, nbin = 300,
               colramp = colorRampPalette(c("white", "blue")),
               nrpoints = 300, pch = "", cex = 1.5, col = "black", xlab="Bulk Cell ChIP-seq (log2 CPM)", ylab ="3000 cells scChIC-seq (log2 CPM)",main = "", xlim=c(3.5,12), ylim=c(3.5,12),,cex.main=1.5, cex.lab=1.5,cex.axis=1.5)
@@ -80,7 +80,7 @@ if(kkk==2)
 }
 if(kkk==3)
 {
-	pdf("./Figures/Figure1/scatter_3T3_1000cell_at_H3K4me3_peaks_Extfig.pdf")
+	pdf("./Figures/Figure1/scatter_3T3_1000cell_at_H3K4me3_peaks_Extfigb.pdf")
 	smoothScatter(xdata, nbin = 300,
               colramp = colorRampPalette(c("white", "blue")),
               nrpoints = 300, pch = "", cex = 1.5, col = "black", xlab="Bulk Cell ChIP-seq (log2 CPM)", ylab ="1000 cells scChIC-seq (log2 CPM)",main = "", xlim=c(3.5,12), ylim=c(3.5,12),,cex.main=1.5, cex.lab=1.5,cex.axis=1.5)
@@ -89,7 +89,7 @@ if(kkk==3)
 }
 if(kkk==4)
 {
-	pdf("./Figures/Figure1/scatter_3T3_300cell_at_H3K4me3_peaks_Extfig.pdf")
+	pdf("./Figures/Figure1/scatter_3T3_300cell_at_H3K4me3_peaks_Extfigc.pdf")
 	smoothScatter(xdata, nbin = 300,
               colramp = colorRampPalette(c("white", "blue")),
               nrpoints = 300, pch = "", cex = 1.5, col = "black", xlab="Bulk Cell ChIP-seq (log2 CPM)", ylab ="300 cells scChIC-seq (log2 CPM)",main = "", xlim=c(3.5,12), ylim=c(3.5,12),,cex.main=1.5, cex.lab=1.5,cex.axis=1.5)
@@ -98,7 +98,7 @@ if(kkk==4)
 }
 if(kkk==5)
 {
-	#pdf("./Figures/Figure1/scatter_3T3_100cell_at_H3K4me3_peaks_Extfig.pdf")
+	pdf("./Figures/Figure1/scatter_3T3_100cell_at_H3K4me3_peaks_Extfigd.pdf")
 	smoothScatter(xdata, nbin = 300,
               colramp = colorRampPalette(c("white", "blue")),
               nrpoints = 300, pch = "", cex = 1.5, col = "black", xlab="Bulk Cell ChIP-seq (log2 CPM)", ylab ="100 cells scChIC-seq (log2 CPM)",main = "", xlim=c(3.5,12), ylim=c(3.5,12),,cex.main=1.5, cex.lab=1.5,cex.axis=1.5)
