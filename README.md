@@ -1,4 +1,4 @@
-# CRK (testing point #1, 23-november-2018)
+# CRK ( 28-november-2018)
 
 
 Introduction
@@ -6,8 +6,8 @@ Introduction
 
 This repository includes a number of sections describing the analyses in the manuscript. The sections are
 
-1. The analysis of the data in the manuscript (testing, see below starting from section A)
-2. Mapping Using bowte2 (coming soon)
+1. The analysis of the data in the manuscript 
+2. Mapping Using bowte2 (UPDATING)
 3. Pre-processing of Bulk cell data (coming soon)
 4. Pre-processing of scRNA-seq data (coming soon)
 5. Pre-processing of scATAC-seq data (coming soon)
