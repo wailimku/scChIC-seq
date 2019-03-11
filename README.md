@@ -1,4 +1,4 @@
-# CRK ( 28-november-2018)
+# scChIC-seq ( 28-november-2018)
 
 
 Introduction
