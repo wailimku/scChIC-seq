@@ -1,10 +1,12 @@
-# scChIC-seq
+Single cell chromatin immunocleavage sequencing (scChIC-Seq) to profile histone modification
 
 
 Introduction
 --------------------------------------
 
-This repository includes a number of sections describing the analyses in the manuscript. Any comments and questions are welcome. Contact Email address: comamabb@gmail.com
+This repository includes a number of sections describing the analyses in the paper. 
+Any comments and questions are welcome. 
+Contact Email address: comamabb@gmail.com
 
 
 A. Download files
@@ -13,7 +15,8 @@ A. Download files
 1. Download the files from github and change the directory to CRK
 
 <pre>
-[wlku@matrix] git clone https://github.com/wailimku/CRK.git
+[wlku@matrix] git clone https://github.com/wailimku/scChIC-seq.git
+[wlku@matrix] mv -r scChIC-seq CRK
 [wlku@matrix] cd CRK
 [wlku@matrix CRK] ls
 [wlku@matrix CRK] AdvancedColormap.m  <b>data</b>  <b>Figures</b>  <b>GSE105012</b>  README.md  <b>src</b> violin.m  violinplot.m
