@@ -4,16 +4,7 @@
 Introduction
 --------------------------------------
 
-This repository includes a number of sections describing the analyses in the manuscript. The sections are
-
-1. The analysis of the data in the manuscript 
-2. Mapping Using bowte2 (UPDATING)
-3. Pre-processing of Bulk cell data (coming soon)
-4. Pre-processing of scRNA-seq data (coming soon)
-5. Pre-processing of scATAC-seq data (coming soon)
-6. Removing batah effect and clustering (coming soon)
-
-
+This repository includes a number of sections describing the analyses in the manuscript. Any comments and questions are welcome. Contact Email address: comamabb@gmail.com
 
 
 A. Download files
