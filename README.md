@@ -42,15 +42,15 @@ B. H3K4me3 profiling  using low cell number 3T3 cells
 [wlku@matrix CRK] sh ./src/figure1_code/script_sicer_low_cell
 </pre>
 
-2. Compute the TSS density profiles using HOMER [2] and plot the TSS profile plots using matlab (<b>Figure 1b</b>)
-single_cell_3T3_tss_profile_plots(n,m): n=1 or 2, m =1 or 0.
+2. Compute the TSS density profiles using HOMER [2] and plot the TSS profile plots using matlab (<b>Supplemental Figure 2a</b> in the paper)
+single_cell_3T3_tss_profile_plots(n,m): n=1 or 2 (), m =1 or 0. 
 <pre>
 [wlku@matrix CRK] sh ./src/figure1_code/script_run_homer_1
 [wlku@matrix CRK] matlab -nodesktop
 >> run ./src/figure1_code/single_cell_3T3_tss_profile_plots(1,0)
 </pre>
 
-<p>A figure (Figure 1b) is shown by matlab</p>
+<p>A figure (upplemental Figure 2a) is shown by matlab</p>
 <p><img src="Figures/Figure1/3T3_TSS_profiles.jpg" alt="Fig 1b" width="300" vspace="20" hspace="5" >
 </p>
 
