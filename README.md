@@ -4,7 +4,7 @@ Single cell chromatin immunocleavage sequencing (scChIC-Seq) to profile histone 
 Information
 --------------------------------------
 
-This repository includes a number of sections describing the analyses in the paper. Note that the Figure number may not be the same as the paper.
+This repository includes a number of sections describing the analyses in the paper. Note that the Figure number may not be the same as the paper. The order of presenting the analyses here is different from that in the paper.
 
 Any comments and questions are welcome. 
 Contact Email address: comamabb@gmail.com
