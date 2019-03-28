@@ -54,7 +54,7 @@ single_cell_3T3_tss_profile_plots(n,m): n=1 or 2 (), m =1 or 0.
 <p><img src="Figures/Figure1/3T3_TSS_profiles.jpg" alt="Fig 1b" width="300" vspace="20" hspace="5" >
 </p>
 
-3. Plot the scatter plots between 3T3 bulk cell ChIP-data seq data and low cell number data
+3. Plot the scatter plots between 3T3 bulk cell ChIP-data seq data and low cell number data. Below, the "1" in the command "script ./src/figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_plot.r temp 1" refer to the figure generated (1-Supplemental Figure 2b, 2-Supplemental Figure 2c, 3-Supplemental Figure 2d 4-Supplemental Figure 2e 5-Supplemental Figure 2f).  
 <pre>
 [wlku@matrix CRK] Rscript ./src/figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_bed2table.r
 [wlku@matrix CRK] Rscript ./src/figure1_code/single_cell_analysze_H3K4me3_low_cell_num_scatter_plot.r temp 1
