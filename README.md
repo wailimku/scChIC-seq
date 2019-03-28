@@ -181,7 +181,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 
 <p><img src="Figures/Figure2/scatter_plot.jpg" alt="Fig 2d" width="300" vspace="20" hspace="5" >
 </p>
-<p>This is Figure 2d</p>
+<p>This is Supplemental Figure 8c</p>
 
 9. Calculation of precision and sensitivity
 
