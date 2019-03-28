@@ -139,7 +139,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 [1] 15034
 </pre>
 
-5. Plot TSS profiles plot (<b>Figure 2b</b>)
+5. Plot TSS profiles plot (<b>Supplemental Figure 8a</b>)
 <pre>
 [wlku@matrix CRK] sh ./src/figure2_code/script_homer_sctss
 [wlku@matrix CRK] matlab -nodesktop
@@ -147,7 +147,7 @@ C. H3K4me3 profiling in Human white blood cells (WBCs)
 >> exit
 </pre>
 
-<p>A figure (Figure 2b) is shown by matlab</p>
+<p>A figure (Supplemental Figure 8a) is shown by matlab</p>
 <p><img src="Figures/Figure2/fig2_tss.jpg" alt="Fig 2b" width="300" vspace="20" hspace="5" >
 </p>
 
