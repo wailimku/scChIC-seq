@@ -1,7 +1,7 @@
 Single cell chromatin immunocleavage sequencing (scChIC-Seq) to profile histone modification
 
 
-Introduction
+Information
 --------------------------------------
 
 This repository includes a number of sections describing the analyses in the paper. 
@@ -50,7 +50,7 @@ single_cell_3T3_tss_profile_plots(n,m): n=1 or 2 (), m =1 or 0.
 >> run ./src/figure1_code/single_cell_3T3_tss_profile_plots(1,0)
 </pre>
 
-<p>A figure (upplemental Figure 2a) is shown by matlab</p>
+<p>A figure (Supplemental Figure 2a) is shown by matlab</p>
 <p><img src="Figures/Figure1/3T3_TSS_profiles.jpg" alt="Fig 1b" width="300" vspace="20" hspace="5" >
 </p>
 
