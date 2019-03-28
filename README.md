@@ -72,7 +72,7 @@ This is Supplemental Figure 2b in the paper.
 
 <p></p>
 
-4. Compute the peak overlap between Bulk Cell ChIP-seq and low cell number library
+4. Compute the peak overlap between Bulk Cell ChIP-seq and low cell number library. The "1" in the command "Rscript ./src/figure1_code/peaks_overlap_for_3T3_cells.r 1" refer to the figure generated. (1-Supplemental Figure 2g, 2-Supplemental Figure 2h, 3-Supplemental Figure 2i)
 <pre>
 [wlku@matrix Figure1] cd ../../
 [wlku@matrix CRK] Rscript ./src/figure1_code/peaks_overlap_for_3T3_cells.r 1
