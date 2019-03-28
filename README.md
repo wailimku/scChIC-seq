@@ -67,7 +67,7 @@ single_cell_3T3_tss_profile_plots(n,m): n=1 or 2 (), m =1 or 0.
 <p><img src="Figures/Figure1/scatter_3T3_3000cell_at_H3K4me3_peaks_Fig1.jpg" alt="Fig 1d" width="300" vspace="20">
 </p>
 <div style="text-align:justify;">
-This is Figure 1d
+This is Supplemental Figure 2b in the paper.
 </div>
 
 <p></p>
