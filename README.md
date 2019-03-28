@@ -16,7 +16,7 @@ A. Download files
 
 <pre>
 [wlku@matrix] git clone https://github.com/wailimku/scChIC-seq.git
-[wlku@matrix] mv -r scChIC-seq CRK
+[wlku@matrix] mv scChIC-seq CRK
 [wlku@matrix] cd CRK
 [wlku@matrix CRK] ls
 [wlku@matrix CRK] AdvancedColormap.m  <b>data</b>  <b>Figures</b>  <b>GSE105012</b>  README.md  <b>src</b> violin.m  violinplot.m
